@@ -1,16 +1,86 @@
 *{
-  margin: 10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body,
-input,
-button{
-  font-size: 1.25rem;
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-table{
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #8ad6b4;
+}
+
+h1,
+h2{
+  text-align: center;
+  margin: .5em;
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 2rem;
+  color: #15925a;
+}
+
+
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input{
+  font-size: 1.2rem;
+  padding: .2em;
+}
+
+.location{
+  display: inline-block;
+}
+
+header{
+  margin: 2em 0;
+}
+
+.add-expense-btn{
+  display: block;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid #117045;
+  background-color: #15925a;
+  color: white;
+  font-weight: bold;
+  margin: 1em auto;
+
+}
+.expense-table{
+  border-collapse: collapse;
   text-align: left;
+  font-size: 1.25rem;
+  width: 100%;
 }
 
+.expense-table th,
+.expense-table td{
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  padding: .2em;
+}
+
+.expense-table th{
+  background-color: white;
+}
+.expense-table td{
+  background-color: rgb(241, 241, 241);
+}
+
+th:last-child{
+  min-width: 40px;
+}

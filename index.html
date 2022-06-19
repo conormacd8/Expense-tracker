@@ -17,12 +17,12 @@
     <div class="container">
       <header>
         <h1>Expense Tracker</h1>
-        <h2>Add A New Item</h2>
+        <h2>Add A New Item:</h2>
         <label for="location">Name:</label>
         <input
           type="text"
           id="location-input"
-          placeholder="Where was the expense made?"
+          placeholder="Location of Expense"
           class="location"
           name="location"
         />
@@ -30,7 +30,9 @@
         <input type="date" id="date-input" class="date" name="date" />
         <label for="amount">Amount:</label>
         <input type="number" id="amount-input" class="amount" name="amount" />
-        <button id="add-expense-btn">Add expense</button>
+        <button id="add-expense-btn" class="add-expense-btn">
+          Add expense
+        </button>
       </header>
       <section>
         <table class="expense-table">
@@ -42,6 +44,9 @@
           </tr>
           <tr>
             <td>No expenses added yet</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </table>
       </section>

@@ -65,6 +65,10 @@ function deleteItem(randomId){
           </tr>
           <tr>
             <td>No expenses added yet</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
           </tr>
     `
   }
