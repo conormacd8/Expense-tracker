@@ -1,0 +1,16 @@
+*{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button{
+  font-size: 1.25rem;
+}
+
+table{
+  text-align: left;
+}
+
